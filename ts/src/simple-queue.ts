@@ -22,5 +22,5 @@ export class SimpleQueue<T> implements Queue<T> {
     count(): number { 
         return this.baseList.length;
     }
-    
+  
 }
