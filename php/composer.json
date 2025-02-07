@@ -1,0 +1,17 @@
+{
+    "name": "skillshare/interview-challenge",
+    "description": "A brief description of your project",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --configuration phpunit.xml"
+    }
+}
