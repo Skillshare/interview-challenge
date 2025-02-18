@@ -1,11 +1,11 @@
 <?php
-interface Queue {
+interface DataStructure {
     public function push(mixed $item): void;
     public function pop(): mixed;
     public function count(): int;
 }
 
-class SimpleQueue implements Queue {
+class SimpleQueue implements DataStructure {
     private array $baseList;
 
     public function __construct(array $initial = []) {

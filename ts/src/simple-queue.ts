@@ -1,10 +1,10 @@
-export interface Queue<T> {
+export interface DataStructure<T> {
     push: (t: T) => void;
     pop: () => T|undefined;
     count: () => number;
 }
 
-export class SimpleQueue<T> implements Queue<T> {
+export class SimpleQueue<T> implements DataStructure<T> {
     private baseList: Array<T>;
 
     constructor(initial?: Array<T>) {
