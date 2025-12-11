@@ -8,6 +8,7 @@ const typeDefs = `
     coverImage: String!
     totalStudents: Int!
     category: String!
+    duration: String!
     teacher: Teacher!
   }
 
@@ -34,6 +35,7 @@ const resolvers = {
         coverImage: cls.thumbnailUrl,
         totalStudents: cls.studentCount,
         category: cls.category,
+        duration: cls.duration,
         teacher: {
           name: cls.teacherName,
         },
