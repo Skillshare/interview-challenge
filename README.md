@@ -1,7 +1,24 @@
-# Welcome to the Skillshare interview challenge
+# Skillshare Marketing Engineer Challenge 🚀
 
-Please clone this repository when instructed by your interviewer.
+Welcome! This challenge is designed to be lightweight (~45 mins) and focuses on **UI fidelity, SEO, and Data Connection**.
 
-You may choose between writing in `ts` and `php` in the corresponding folder.
+## 🛠 Setup
+1. Run `npm install` and `npm run dev`.
+2. Open `http://localhost:3000`.
 
-Your interviewer will give you the task during the interview (the task will be the same for PHP and TS)
+## 📝 The Challenge
+
+### Part 1: The Component (Frontend)
+Create a component based on the instructions of your interviewer
+
+### Part 2: The Data (GraphQL)
+In `query.graphql`, write a query to fetch the data, your interviewer will provide the details
+
+#### Using the GraphQL API
+
+A GraphQL API is available at `/api/graphql`. You can:
+
+1. **Test queries in the browser**: Visit `http://localhost:3000/api/graphql` to access the GraphQL Playground
+2. **Use the helper function** in your component:
+```typescript
+import { executeQuery } from '@/lib/graphqlClient';
