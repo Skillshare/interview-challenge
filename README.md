@@ -12,7 +12,7 @@ Welcome! This challenge is designed to be lightweight (~45 mins) and focuses on 
 Create a component based on the instructions of your interviewer
 
 ### Part 2: The Data (GraphQL)
-In `query.graphql`, write a query to fetch the data, your interviewer will provide the details
+In `/lib/queries.ts`, write a query to fetch the data, your interviewer will provide the details
 
 #### Using the GraphQL API
 
