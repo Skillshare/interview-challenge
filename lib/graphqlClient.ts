@@ -5,7 +5,7 @@ export async function executeQuery<T = unknown>(
   query: string,
   variables?: Record<string, unknown>
 ): Promise<T> {
-  const response = await fetch('/api/graphql', {
+  const response = await fetch('http://localhost:3000/api/graphql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
