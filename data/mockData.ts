@@ -143,6 +143,240 @@ export const sampleClasses: ClassData[] = [
     studentCount: 2820,
     category: "Animation & 3D",
     duration: "8h 31m"
+  },
+  {
+    id: "712345",
+    title: "Advanced Drawing Techniques: Mastering Light and Shadow",
+    teacherName: "Brent Eviston",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/c69b0a6739ac2a05a60637b593efa6f0/original",
+    studentCount: 18500,
+    category: "Art & Illustration",
+    duration: "6h 15m"
+  },
+  {
+    id: "712346",
+    title: "Procreate Mastery: Creating Digital Art Portraits",
+    teacherName: "Lisa Bardot",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/c227aee2f172d06354b0913d8beb4eb9/original",
+    studentCount: 31200,
+    category: "Art & Illustration",
+    duration: "7h 30m"
+  },
+  {
+    id: "712347",
+    title: "Figma Advanced: Design Systems and Component Libraries",
+    teacherName: "Daniel Scott",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/2c4fe8532c8712ac6925a9690f75a69b/original",
+    studentCount: 28900,
+    category: "Design",
+    duration: "10h 20m"
+  },
+  {
+    id: "712348",
+    title: "Watercolor Sketching: Quick Studies and Field Notes",
+    teacherName: "Dylan Mierzwinski",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/fe558bd84fbe87b20cab2f4cf54ed37c/original",
+    studentCount: 8900,
+    category: "Art & Illustration",
+    duration: "2h 15m"
+  },
+  {
+    id: "712349",
+    title: "Premiere Pro Advanced: Color Correction and Grading",
+    teacherName: "Jordy Vandeput",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/6afe10afdc498ffda294211907d77be1/original",
+    studentCount: 22100,
+    category: "Film & Video",
+    duration: "4h 50m"
+  },
+  {
+    id: "712350",
+    title: "DaVinci Resolve: Advanced Color Workflows",
+    teacherName: "Adi Singh",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/e961308e2d92d893f1cae6e9e2813151/original",
+    studentCount: 12300,
+    category: "Film & Video",
+    duration: "8h 10m"
+  },
+  {
+    id: "712351",
+    title: "Perspective Drawing: From Basics to Complex Scenes",
+    teacherName: "Brent Eviston",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/7f4df8c99988a59d3e489f8e0c6c0982/original",
+    studentCount: 15200,
+    category: "Art & Illustration",
+    duration: "5h 30m"
+  },
+  {
+    id: "712352",
+    title: "Procreate Animation: Bringing Illustrations to Life",
+    teacherName: "Brooke Glaser",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/4bd9d227fc628cf960d582d3d521a76b/original",
+    studentCount: 67800,
+    category: "Art & Illustration",
+    duration: "3h 20m"
+  },
+  {
+    id: "712353",
+    title: "Notion for Teams: Collaborative Workspace Setup",
+    teacherName: "Ali Abdaal",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/7db4ebdc11a4b203995b65666a56d1fd/original",
+    studentCount: 45200,
+    category: "Productivity",
+    duration: "2h 30m"
+  },
+  {
+    id: "712354",
+    title: "Illustrator Advanced: Vector Illustration Mastery",
+    teacherName: "Daniel Scott",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/4ed028964efbb8ab8997f63e99be90e1/original",
+    studentCount: 95600,
+    category: "Design",
+    duration: "12h 45m"
+  },
+  {
+    id: "712355",
+    title: "Digital Pattern Design: Creating Repeating Patterns",
+    teacherName: "Weronika Salach",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/61621cc9b72e4ac36045e096b3c5de89/original",
+    studentCount: 3200,
+    category: "Art & Illustration",
+    duration: "3h 15m"
+  },
+  {
+    id: "712356",
+    title: "Canva Pro: Advanced Design Techniques for Marketers",
+    teacherName: "Maggie Stara",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/5c03d7d3748360229b36ccca4a91d9c4/original",
+    studentCount: 35100,
+    category: "Marketing & Business",
+    duration: "14h 25m"
+  },
+  {
+    id: "712357",
+    title: "Illustration Fundamentals: Color Theory and Composition",
+    teacherName: "Marie-Noëlle Wurm",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/f19e8a5f1df22e8e8e67ce4409f535d5/original",
+    studentCount: 2100,
+    category: "Art & Illustration",
+    duration: "2h 10m"
+  },
+  {
+    id: "712358",
+    title: "Drawing Fundamentals: Line, Form, and Structure",
+    teacherName: "Brent Eviston",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/1c61db4ed1ff443ede2d2b0c8c8c07dc/original",
+    studentCount: 98700,
+    category: "Art & Illustration",
+    duration: "5h 40m"
+  },
+  {
+    id: "712359",
+    title: "Blender 3D: Character Modeling and Rigging",
+    teacherName: "Daniel Scott",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/e71fc6ff4bb926760cabdd072ed71d4a/original",
+    studentCount: 15200,
+    category: "Animation & 3D",
+    duration: "9h 50m"
+  },
+  {
+    id: "712360",
+    title: "Sketchbook Techniques: Daily Drawing Practice",
+    teacherName: "Dylan Mierzwinski",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/fe558bd84fbe87b20cab2f4cf54ed37c/original",
+    studentCount: 12400,
+    category: "Art & Illustration",
+    duration: "1h 55m"
+  },
+  {
+    id: "712361",
+    title: "Procreate Brushes: Creating Custom Brush Sets",
+    teacherName: "Lisa Bardot",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/c227aee2f172d06354b0913d8beb4eb9/original",
+    studentCount: 28900,
+    category: "Art & Illustration",
+    duration: "4h 25m"
+  },
+  {
+    id: "712362",
+    title: "Figma Prototyping: Interactive Design Workflows",
+    teacherName: "Daniel Scott",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/2c4fe8532c8712ac6925a9690f75a69b/original",
+    studentCount: 41200,
+    category: "Design",
+    duration: "8h 15m"
+  },
+  {
+    id: "712363",
+    title: "Video Editing Basics: Storytelling Through Editing",
+    teacherName: "Jordy Vandeput",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/6afe10afdc498ffda294211907d77be1/original",
+    studentCount: 18700,
+    category: "Film & Video",
+    duration: "3h 55m"
+  },
+  {
+    id: "712364",
+    title: "DaVinci Resolve: Audio Post-Production Essentials",
+    teacherName: "Adi Singh",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/e961308e2d92d893f1cae6e9e2813151/original",
+    studentCount: 9800,
+    category: "Film & Video",
+    duration: "7h 20m"
+  },
+  {
+    id: "712365",
+    title: "Notion Templates: Building Your Personal Knowledge Base",
+    teacherName: "Ali Abdaal",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/7db4ebdc11a4b203995b65666a56d1fd/original",
+    studentCount: 52300,
+    category: "Productivity",
+    duration: "2h 5m"
+  },
+  {
+    id: "712366",
+    title: "Illustrator Logo Design: From Concept to Final Art",
+    teacherName: "Daniel Scott",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/4ed028964efbb8ab8997f63e99be90e1/original",
+    studentCount: 78900,
+    category: "Design",
+    duration: "10h 30m"
+  },
+  {
+    id: "712367",
+    title: "Canva Brand Kit: Creating Consistent Visual Identity",
+    teacherName: "Maggie Stara",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/5c03d7d3748360229b36ccca4a91d9c4/original",
+    studentCount: 28100,
+    category: "Marketing & Business",
+    duration: "11h 15m"
+  },
+  {
+    id: "712368",
+    title: "Blender Animation: Keyframe Animation Basics",
+    teacherName: "Daniel Scott",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/e71fc6ff4bb926760cabdd072ed71d4a/original",
+    studentCount: 11200,
+    category: "Animation & 3D",
+    duration: "7h 45m"
+  },
+  {
+    id: "712369",
+    title: "Drawing Anatomy: Human Figure Drawing Essentials",
+    teacherName: "Brent Eviston",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/c69b0a6739ac2a05a60637b593efa6f0/original",
+    studentCount: 45600,
+    category: "Art & Illustration",
+    duration: "6h 50m"
+  },
+  {
+    id: "712370",
+    title: "Procreate Lettering: Modern Calligraphy and Typography",
+    teacherName: "Brooke Glaser",
+    thumbnailUrl: "https://static.skillshare.com/uploads/video/thumbnails/4bd9d227fc628cf960d582d3d521a76b/original",
+    studentCount: 34200,
+    category: "Art & Illustration",
+    duration: "3h 40m"
   }
 ];
 

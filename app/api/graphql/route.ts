@@ -1,6 +1,10 @@
 import { createYoga, createSchema } from 'graphql-yoga';
 import { sampleClasses } from '@/data/mockData';
 
+// Simulate network latency (200-600ms)
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+const randomDelay = () => delay(Math.floor(Math.random() * 400) + 200); // 200-600ms
+
 const typeDefs = `
   type SkillshareClass {
     id: ID!
@@ -17,17 +21,20 @@ const typeDefs = `
   }
 
   type Query {
-    classes(category: String, limit: Int, sortBy: String): [SkillshareClass]
+    classes(category: String, limit: Int, sortBy: String, search: String): [SkillshareClass]
   }
 `;
 
 // Define resolvers that work with the mock data
 const resolvers = {
   Query: {
-    classes: (
+    classes: async (
       _: unknown,
-      args: { category?: string; limit?: number; sortBy?: string }
+      args: { category?: string; limit?: number; sortBy?: string; search?: string }
     ) => {
+      // Simulate network latency
+      await randomDelay();
+      
       // Transform mock data to match GraphQL schema
       let results = sampleClasses.map((cls) => ({
         id: cls.id,
@@ -40,6 +47,15 @@ const resolvers = {
           name: cls.teacherName,
         },
       }));
+
+      // Search by title or teacher name
+      if (args.search) {
+        const searchLower = args.search.toLowerCase();
+        results = results.filter((cls) =>
+          cls.title.toLowerCase().includes(searchLower) ||
+          cls.teacher.name.toLowerCase().includes(searchLower)
+        );
+      }
 
       // Filter by category
       if (args.category) {
