@@ -1,4 +1,4 @@
-# Skillshare Marketing Engineer Challenge 🚀
+# Skillshare Fullstack Engineer Challenge 🚀
 
 Welcome! This challenge is designed to be lightweight (~45 mins) and focuses on **UI fidelity, SEO, and Data Connection**.
 
@@ -6,19 +6,13 @@ Welcome! This challenge is designed to be lightweight (~45 mins) and focuses on 
 1. Run `npm install` and `npm run dev`.
 2. Open `http://localhost:3000`.
 
-## 📝 The Challenge
+## 📚 Storybook
 
-### Part 1: The Component (Frontend)
-Create a component based on the instructions of your interviewer
+To run Storybook for component development and testing:
 
-### Part 2: The Data (GraphQL)
-In `/lib/queries.ts`, write a query to fetch the data, your interviewer will provide the details
+```bash
+npm run storybook
+```
 
-#### Using the GraphQL API
+Storybook will open at `http://localhost:6006`
 
-A GraphQL API is available at `/api/graphql`. You can:
-
-1. **Test queries in the browser**: Visit `http://localhost:3000/api/graphql` to access the GraphQL Playground
-2. **Use the helper function** in your component:
-```typescript
-import { executeQuery } from '@/lib/graphqlClient';
